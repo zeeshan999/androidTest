@@ -1,7 +1,7 @@
 # Android Coding Test
 
 The following challenge will test your coding skills. Important to us is efficiency and your approach to a problem.
-Deadline of submission is **20 July 11:59 PM.**
+
 
 ## Task 1:
 Create an app to display a list of movies data. The list should display “title”, “overview”, “release date” & “poster” image. Use your creativity to design the list item.
