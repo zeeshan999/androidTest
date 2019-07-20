@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/layout_border"
+        android:layout_margin="5dp">
+
+
+        <ImageView
+            android:layout_width="@dimen/movie_image_width"
+            android:layout_height="@dimen/movie_image_height"
+            android:scaleType="fitXY"
+            android:id="@+id/itemImage"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="5dp"/>
+
+        <TextView
+            android:layout_below="@+id/itemImage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/movie_title_text_size"
+            android:textColor="@android:color/holo_orange_dark"
+            android:id="@+id/name"
+            />
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/name"
+            android:textColor="@android:color/darker_gray"
+            android:textSize="@dimen/movie_info_text_size"
+            android:id="@+id/overView"/>
+
+
+        <TextView
+            android:layout_below="@+id/overView"
+            android:layout_width="wrap_content"
+            android:textColor="@android:color/darker_gray"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/movie_info_text_size"
+            android:id="@+id/release_date"/>
+
+
+    </RelativeLayout>
+
+</RelativeLayout>
